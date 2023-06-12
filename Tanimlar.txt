@@ -1,0 +1,23 @@
+📘
+📗
+📕
+📙
+
+📕 asset ادخل على الملف الفلاني
+
+📘 yield تساعدنا في عرض أجزاء الصفحة/البلوك
+📘 @yield esas olarak bir düzende bir bölümü tanımlamak için kullanılır. O layout @extends ile genişletildiğinde, 
+view'lerinizde @section direktifi ile o bölüme ne gireceğini tanımlayabilirsiniz.
+📘 @yield is content for that the view, say a table in a div, a simple hello world or whatever.
+
+
+📗 @include is for including another whole view within a view.
+📗 @include - ayrı bir dosyanın içeriğini, yerleştirildiği konumdaki geçerli dosyaya aktarın.
+
+📘 include تساعد بتقسيم هذه الصفحات (footer, sidebar, header) تساعد في تقسيم الصفحة  
+📗 extends تساعد في وراثة معلومات صفحة معينة - تساعد في جلب قالب الصقحة
+📕 section تساعد في التغيير على جزء معين من صفحة معينة 
+📙 yield تساعد في اظهار محتوى/نص معين في جزء من صفحة معينة
+
+
+
