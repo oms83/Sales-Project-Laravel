@@ -7,7 +7,7 @@
 
 📘 yield تساعدنا في عرض أجزاء الصفحة/البلوك
 📘 @yield esas olarak bir düzende bir bölümü tanımlamak için kullanılır. O layout @extends ile genişletildiğinde, 
-view'lerinizde @section direktifi ile o bölüme ne gireceğini tanımlayabilirsiniz.
+   view'lerinizde @section direktifi ile o bölüme ne gireceğini tanımlayabilirsiniz.
 📘 @yield is content for that the view, say a table in a div, a simple hello world or whatever.
 
 
@@ -22,8 +22,17 @@ view'lerinizde @section direktifi ile o bölüme ne gireceğini tanımlayabilirs
 📗 Route Request -> Middleware -> Gaurd 
                                <-
 📘 Middleware : عبارة عن حاجز أمني
+
 📘 Gaurd : Gaurdيتم التحقق منها بواسطة الـ Middleware المعلومات المرسلة من الـ
+📘 Gaurd : في عملية التحقق في قواعد البيانات Middleware يساعد الـ
+
 📘 Kernal : العقل المدبر
 
 📙 Model : هو الذي يتعامل مع قاعدة البيانات
+
+📗 Controller : Model والـ view حلقة الربط بين الـ 
+
+📕 419|PAGE EXPIRED bu hata geldığınde @csrf eklememiz gerekiyor post ile eklenir.
+
+📗 php artisan tinker : تساعد في ارسال البيانات كريكورد واحد واحد الى قاعدة البيانات
 
